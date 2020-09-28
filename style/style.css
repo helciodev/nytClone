@@ -76,18 +76,84 @@ body {
 .banner {
   display: flex;
   flex-direction: column;
-  border: 1px solid salmon;
   align-items: center;
-  padding: 10px 20px;
+  padding: 20px 20px;
 }
 
-figure {
+.firstfig {
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  /* border: 10px solid rebeccapurple; */
+  font-size: 100%;
+  vertical-align: baseline;
+  text-size-adjust: 100%;
+  margin: 0 auto;
+}
+
+.bannerfig{
+  width: 100%;
+  max-width: 1200px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-title{
+ color: #121212;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: 700;
+ font-style: italic;
+ margin: 0 20px 1rem;
+ max-width: 700px;
+ font-size: 2.5rem;
+ line-height: 3rem;
+
+}
+
+.image-caption{
+  color: #666;
+  margin-right: 7px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+
+}
+
+.banner-author{
+  color: #888;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.125rem ;
+  font-size: 0.75rem;
+  letter-spacing: 0.01em;
+
+}
+
+.first-section {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
   align-items: center;
-  justify-content: center;
-  border: 1px solid rebeccapurple;
+  border: salmon 1px solid;
+  margin: 0 auto;
 }
-.banner img {
-  width: 900px;
+
+.first {
+  width: 50%;
+}
+
+.social-and-date {
+  display: flex;
+  width: 50%;
+  border: skyblue 1px solid;
+  padding: 10px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.social-icons{
+  justify-content: left;
+  align-content: flex-start;
 }
