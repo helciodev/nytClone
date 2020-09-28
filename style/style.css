@@ -9,7 +9,6 @@ body {
 }
 
 .navbar {
-  /* border: 1px solid red; */
   margin-top: -100px;
   width: 100%;
   position: fixed;
@@ -48,11 +47,6 @@ body {
   /* border: 1px solid rebeccapurple; */
 }
 
-.banner {
-  margin-top: 100px;
-  padding: 20px;
-}
-
 .navbar-icons i,
 .navbar img,
 .navbuttons,
@@ -76,10 +70,15 @@ body {
 
 .banner {
   display: flex;
+  padding: 20px;
   flex-direction: column;
   align-items: center;
   padding: 20px 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 100px auto 50px auto;
 }
+
 
 .firstfig {
   /* flex-direction: column;
@@ -101,7 +100,7 @@ body {
   width: 100%;
 }
 
-.social-and-date a {
+.social-and-date a, .social-and-date span {
   color: #333;
   font-size: 0.9rem;
   font-weight: 700;
@@ -158,6 +157,19 @@ body {
 
 .first {
   width: 50%;
+  color: #333;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.7625rem;
+  margin-bottom: 20px;
+}
+
+.first a{
+  color: #326891;
+}
+
+.first a:hover{
+  text-decoration: none;
 }
 
 .social-and-date {
@@ -193,6 +205,62 @@ body {
 .social-icon:not(:last-child) {
   margin-right: 6px;
 }
+
 .social-icon:hover {
   background-color: #fff;
+}
+
+.little{
+  margin: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.little p {
+  color: #333;
+  font-weight: 700;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.little a {
+  color: #326891;
+  font-weight: 700;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+.little::before{
+  left: 30%;
+  top: -15px;
+  content: "";
+  width: 72px;
+  position: absolute;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.little::after{
+  left: 30%;
+  bottom: -20px;
+  content: "";
+  width: 72px;
+  position: absolute;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.editor-choice {
+  border: orangered 1px solid;
+  align-self: flex-end;
+  width: 20%;
+}
+
+.editor-choice img{
+  width: 50%;
+}
+
+.choices a{
+display: flex;
 }
