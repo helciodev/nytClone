@@ -55,7 +55,8 @@ body {
 
 .navbar-icons i,
 .navbar img,
-.navbuttons {
+.navbuttons,
+.social-icon {
   cursor: pointer;
 }
 
@@ -91,7 +92,7 @@ body {
   margin: 0 auto;
 }
 
-.bannerfig{
+.bannerfig {
   width: 100%;
   max-width: 1200px;
 }
@@ -100,34 +101,49 @@ body {
   width: 100%;
 }
 
-.banner-title{
- color: #121212;
- font-family: Georgia, 'Times New Roman', Times, serif;
- font-weight: 700;
- font-style: italic;
- margin: 0 20px 1rem;
- max-width: 700px;
- font-size: 2.5rem;
- line-height: 3rem;
-
+.social-and-date a {
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.02em;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-.image-caption{
+.social-and-date a {
+  text-decoration: none;
+  border-bottom: 1px solid #888;
+}
+
+.social-and-date a:hover {
+  border: none;
+}
+
+.banner-title {
+  color: #121212;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0 20px 1rem;
+  max-width: 700px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.image-caption {
   color: #666;
   margin-right: 7px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 0.875rem;
   line-height: 1.125rem;
-
 }
 
-.banner-author{
+.banner-author {
   color: #888;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height: 1.125rem ;
+  line-height: 1.125rem;
   font-size: 0.75rem;
   letter-spacing: 0.01em;
-
 }
 
 .first-section {
@@ -147,13 +163,36 @@ body {
 .social-and-date {
   display: flex;
   width: 50%;
-  border: skyblue 1px solid;
   padding: 10px;
   margin-bottom: 20px;
   justify-content: space-between;
 }
 
-.social-icons{
+.social-icons {
   justify-content: left;
   align-content: flex-start;
+}
+
+.date {
+  color: #333;
+  font-weight: 500;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1rem;
+}
+
+.social-icon {
+  background-color: #eee;
+  border: 1px solid #eee;
+  border-radius: 100%;
+  padding: 7px;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+.social-icon:not(:last-child) {
+  margin-right: 6px;
+}
+.social-icon:hover {
+  background-color: #fff;
 }
