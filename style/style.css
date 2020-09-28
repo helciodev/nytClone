@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.header {
+  position: fixed;
+  overflow: hidden;
+  margin-top: -100px;
+  /* border: 1px solid green; */
+  margin-bottom: 12px;
+  width: 100%;
+}
+.navbar {
+  /* border: 1px solid red; */
+  padding: 5px 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #4444;
+}
+
+.navbar img {
+  border: 1px solid rebeccapurple;
+  margin: 0 auto;
+}
+.navbar-icons {
+  float: left;
+}
+
+.navbar-buttons {
+  float: right;
+  overflow: hidden;
+}
+
+.banner {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.navbar
