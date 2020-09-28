@@ -101,7 +101,8 @@ body {
   width: 100%;
 }
 
-.social-and-date a {
+.social-and-date a,
+.social-and-date span {
   color: #333;
   font-size: 0.9rem;
   font-weight: 700;
