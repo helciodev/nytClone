@@ -470,7 +470,7 @@ body {
 }
 
 .more-container {
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -478,15 +478,16 @@ body {
 
 .more {
   width: 72%;
-  border: 1px green solid;
+  /* border: 1px green solid; */
   float: left;
   display: grid;
   grid-template-rows: repeat(2, 32%);
   grid-template-columns: repeat(3, 32%);
   gap: 15px;
   padding: 20px;
-  height: 100vh;
+  height: 110vh;
   justify-content: center;
+  /* border-bottom: 1px solid blue; */
 }
 
 .side-links {
@@ -501,7 +502,7 @@ body {
   display: table;
 }
 .morecont{
-  border: orangered 1px solid;
+  /* border: orangered 1px solid; */
 }
 
 .morecont figcaption{
@@ -545,4 +546,11 @@ body {
   font-size: 0.72rem;
   letter-spacing: 0.3px;
 
+}
+
+.line {
+grid-column: 1/ -1;
+padding: 10px;
+border-top: 1px solid #222;
+  
 }
