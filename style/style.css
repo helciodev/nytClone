@@ -49,11 +49,13 @@ body {
 .navbar-icons i,
 .navbar img,
 .navbuttons,
-.social-icon {
+.social-icon,
+.footer-interact button {
   cursor: pointer;
 }
 
-.navbuttons {
+.navbuttons,
+.footer-interact button {
   outline: none;
   font-family: Helvetica, sans-serif;
   font-size: 11px;
@@ -159,7 +161,7 @@ body {
   margin-bottom: 20px;
 }
 
-.second h3{
+.second h3 {
   width: 50%;
   margin: 0 auto;
 }
@@ -382,18 +384,17 @@ body {
   max-width: 1200px;
   align-items: center;
   margin: 0 auto;
-
 }
 
-.second-section a{
+.second-section a {
   color: #326891;
 }
 
-.second-section a:hover{
+.second-section a:hover {
   text-decoration: none;
 }
 
-.para{
+.para {
   color: #333;
   margin: 0 auto;
   width: 50%;
@@ -409,47 +410,81 @@ body {
   margin-bottom: 20px;
 }
 
-.telescope{ 
+.telescope {
   width: 100%;
 }
 
-.telescope img, .telescope figcaption{
+.telescope img,
+.telescope figcaption {
   display: block;
   margin: 0 auto;
   width: 800px;
-  
 }
 
 .telescope figcaption {
   margin-bottom: 20px;
- }
+}
 
+.foot {
+  width: 90%;
+  margin: 0 auto;
+}
 .sectionfooter {
-  border: 1px slateblue solid;
-  width: 32%;
+  width: 50%;
   margin: 0 auto;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.75rem;
   line-height: 1rem;
   color: rgb(102, 102, 102);
-  margin: 0px auto 1em;
+  margin-bottom: 40px;
 }
 
-
-.sectionfooter a{
+.sectionfooter a {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.75rem;
   line-height: 1rem;
   color: rgb(102, 102, 102);
   margin: 0px auto 1em;
-
 }
 
-.sectionfooter a:not(:last-child){
+.sectionfooter a:not(:last-child) {
   border-right: 1px solid rgb(102, 102, 102);
   padding: 3px;
 }
 
-.sectionfooter a:hover{
+.sectionfooter a:hover {
   text-decoration: none;
+}
+
+.footer-interact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.footer-interact .social-icon {
+  color: #111;
+}
+.footer-interact button {
+  text-transform: uppercase;
+  width: 50%;
+}
+
+.more-container {
+  border: 1px solid salmon;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.more {
+  width: 66%;
+  border: 1px green solid;
+}
+
+.side-links {
+  float: right;
+}
+
+.side-links {
+  overflow: hidden;
 }
