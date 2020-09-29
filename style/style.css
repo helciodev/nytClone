@@ -44,7 +44,6 @@ body {
 
 .navbar img {
   display: block;
-  /* border: 1px solid rebeccapurple; */
 }
 
 .navbar-icons i,
@@ -80,10 +79,6 @@ body {
 }
 
 .firstfig {
-  /* flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-  /* border: 10px solid rebeccapurple; */
   font-size: 100%;
   vertical-align: baseline;
   text-size-adjust: 100%;
@@ -135,6 +130,7 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 0.875rem;
   line-height: 1.125rem;
+  margin-bottom: 20px;
 }
 
 .banner-author {
@@ -154,8 +150,7 @@ body {
   margin: 0 auto;
 }
 
-.first,
-.second {
+.first {
   width: 50%;
   color: #333;
   font-size: 20px;
@@ -164,10 +159,11 @@ body {
   margin-bottom: 20px;
 }
 
-.second h3,
-.para {
-  margin-bottom: 20px;
+.second h3{
+  width: 50%;
+  margin: 0 auto;
 }
+
 .first a {
   color: #326891;
 }
@@ -349,7 +345,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 17px;
   margin-top: 167px;
-  margin-bottom: 55px;
+  margin-bottom: 85px;
   padding: 5px;
 }
 
@@ -380,6 +376,24 @@ body {
 }
 
 .second-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.second-section a{
+  color: #326891;
+}
+
+.second-section a:hover{
+  text-decoration: none;
+}
+
+.para{
   color: #333;
   margin: 0 auto;
   width: 50%;
@@ -387,4 +401,55 @@ body {
   line-height: 1.7625rem;
   margin-bottom: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.second-section h3 {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.telescope{ 
+  width: 100%;
+}
+
+.telescope img, .telescope figcaption{
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  
+}
+
+.telescope figcaption {
+  margin-bottom: 20px;
+ }
+
+.sectionfooter {
+  border: 1px slateblue solid;
+  width: 32%;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+  margin: 0px auto 1em;
+}
+
+
+.sectionfooter a{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+  margin: 0px auto 1em;
+
+}
+
+.sectionfooter a:not(:last-child){
+  border-right: 1px solid rgb(102, 102, 102);
+  padding: 3px;
+}
+
+.sectionfooter a:hover{
+  text-decoration: none;
 }
