@@ -164,6 +164,10 @@ body {
   margin-bottom: 20px;
 }
 
+.second h3,
+.para {
+  margin-bottom: 20px;
+}
 .first a {
   color: #326891;
 }
@@ -293,10 +297,9 @@ body {
 .second {
   float: left;
   margin-top: -250px;
-  /* border: 1px solid lime; */
 }
 
-.inflation{
+.inflation {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -305,7 +308,7 @@ body {
   margin: 0 auto;
 }
 
-.inflation h3{
+.inflation h3 {
   font-size: 1.25rem;
   line-height: 1.5rem;
   font-weight: 700;
@@ -316,10 +319,10 @@ body {
   padding-top: 5px;
 }
 
-.inflation p{
+.inflation p {
   color: #666;
-  font-family: Georgia, 'Times New Roman',  Times, serif;
-  font-size:1.1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
   line-height: 1.125rem;
   font-weight: 400;
   font-style: normal;
@@ -327,31 +330,61 @@ body {
 }
 
 .gridtext {
-  background-image: url("../img/inflation-945.png");
-  width: 80%;
+  background-image: url('../img/inflation-945.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 82%;
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
-  background-repeat: no-repeat;
   margin-top: 20px;
   max-width: 1200px;
 }
 
 .gridtext-element {
   width: 25%;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 300;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 350px;
-  padding-right: 50px;
-  padding-left: 50px;
-  line-height: 26px;
-  margin-bottom: 100px;
-  
+  line-height: 17px;
+  margin-top: 167px;
+  margin-bottom: 55px;
+  padding: 5px;
 }
 
-.gridtext-element span{
+.gridtext-element span {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
+}
+
+.larry {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 50;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.larry::before {
+  border-bottom: #111 solid 1px;
+  width: 72px;
+  content: '';
+  position: absolute;
+  top: -15px;
+}
+
+.second-section {
+  color: #333;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 20px;
+  line-height: 1.7625rem;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
