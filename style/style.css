@@ -477,14 +477,72 @@ body {
 }
 
 .more {
-  width: 66%;
+  width: 72%;
   border: 1px green solid;
+  float: left;
+  display: grid;
+  grid-template-rows: repeat(2, 32%);
+  grid-template-columns: repeat(3, 32%);
+  gap: 15px;
+  padding: 20px;
+  height: 100vh;
+  justify-content: center;
 }
 
 .side-links {
   float: right;
+  width: 27%;
+  margin-top: 0;
 }
 
-.side-links {
-  overflow: hidden;
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.morecont{
+  border: orangered 1px solid;
+}
+
+.morecont figcaption{
+  color: rgb(153, 153, 153);
+  text-align: right;
+  line-height: 1.23em;
+  font-family: inherit;
+  font-size: 0.6em;
+  cursor: pointer;
+}
+
+.morecont img{
+  cursor: pointer;
+  width: 260px;
+}
+
+.morecont a{
+  text-decoration: none;
+  color: black;
+  font-size: .9rem;
+  font-style: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 22px;
+}
+
+.morecont a:hover{
+  color: rgb(153, 153, 153);
+}
+
+.morecont:nth-child(3) figcaption{ 
+  margin-bottom: 9px;
+}
+
+.morecont h3{
+  font-weight: lighter;
+  margin-top: 9px;
+}
+
+.morecont span{
+  color: rgb(153, 153, 153);
+  font-size: 0.72rem;
+  letter-spacing: 0.3px;
+
 }
