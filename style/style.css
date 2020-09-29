@@ -501,7 +501,8 @@ body {
   clear: both;
   display: table;
 }
-.morecont{
+.more, .side-links {
+  border-top: 1px solid #222;
   /* border: orangered 1px solid; */
 }
 
@@ -548,9 +549,38 @@ body {
 
 }
 
-.line {
+.line, .more-astronomy {
 grid-column: 1/ -1;
 padding: 10px;
 border-top: 1px solid #222;
   
 }
+
+.side-links ul  {
+  list-style: none;
+
+}
+
+.side-links li {
+border-top: 1px solid rgb(153, 153, 153);
+  padding: 10px
+}
+
+.side-links a {
+  text-decoration: none;
+  font-size: 19px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #121212;
+  font-weight: 500;
+  line-height: 1.4375rem;
+
+}
+
+.side-links a:hover {
+  color: rgb(19, 9, 9)
+}
+
+.mostpopular {
+  margin-bottom: 10px;
+}
+
