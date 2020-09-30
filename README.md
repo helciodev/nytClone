@@ -22,7 +22,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/helciodev/nytClone/ed29202bf1f1f364f754ec8569dc235ba17946cc/index.html)
+[Live Demo Link](https://rawcdn.githack.com/helciodev/nytClone/8913d463ba70d6a254fce4987911b1ef51572813/index.html)
 
 **See the page via the link above**
 
