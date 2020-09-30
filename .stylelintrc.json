@@ -3,7 +3,7 @@
         "stylelint-config-standard"
     ],
     "plugins": [
-        "stylelint-scss",
+        "stylelint-css",
         "stylelint-csstree-validator"
     ],
     "rules": {
