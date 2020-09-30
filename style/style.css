@@ -531,7 +531,7 @@ body {
 }
 
 .sectionfooter {
-  width: %;
+  width: 50%;
   margin: 0 auto;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.75rem;
@@ -585,7 +585,7 @@ body {
   -ms-grid-columns: (32%)[3];
       grid-template-columns: repeat(3, 32%);
   gap: 15px;
-  height: 140vh;
+  height: 1080px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
