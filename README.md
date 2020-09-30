@@ -6,11 +6,12 @@
 
 ![screenshot](img/screenshot.jpg)
 
-Sample of New York Times Clone with the following features:
+## Sample of New York Times Clone with the following features:
 
--Sticky Navigation Bar
--Aside with Editor's Pick
--Floating Elements, Grids and flexbox
+- Sticky Navigation Bar
+- Aside with Editor's Pick
+- Floating Elements and Positioning
+- Grids and flexbox
 
 
 ## Built With
