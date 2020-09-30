@@ -18,7 +18,7 @@ body {
   background-color: #fff;
   border-bottom: 1px solid #4444;
   overflow: hidden;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -125,7 +125,7 @@ body {
 .navbar-icons {
   display: flex;
   justify-content: space-around;
-  width: 15%;
+  width: 18%;
 }
 
 .navbaricon {
@@ -375,8 +375,9 @@ body {
 .gridtext {
   background-image: url("../img/inflation-945.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 82%;
+  background-position: center center;
+  background-size: contain;
+  width: 83%;
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -392,7 +393,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 17px;
   margin-top: 167px;
-  margin-bottom: 85px;
+  margin-bottom: 60px;
   padding: 5px;
 }
 
@@ -468,11 +469,12 @@ body {
 
 .foot {
   width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .sectionfooter {
-  width: 32%;
+  width: %;
   margin: 0 auto;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.75rem;
@@ -519,8 +521,9 @@ body {
   grid-template-rows: repeat(2, 28%);
   grid-template-columns: repeat(3, 32%);
   gap: 15px;
-  height: 110vh;
+  height: 140vh;
   justify-content: center;
+  margin-bottom: 60px;
 }
 
 .side-links {
@@ -621,7 +624,8 @@ body {
 }
 
 .linksfoot {
-  width: 65%;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   border-top: 2px solid rgb(204, 204, 204);
 }
