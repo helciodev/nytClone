@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Mint.com's signup clone page
+# New York Times clone page
 
 > This project is made as part of Microverse HTML/CSS curriculum
 
@@ -18,11 +18,10 @@ Sample of New York Times Clone with the following features:
 - HTML
 - CSS/SCSS
 
-## Getting Started
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/helciodev/nytClone/c8b826367bbb4383239ba0a08e5ddc578f648b05/index.html)
+[Live Demo Link](https://rawcdn.githack.com/helciodev/nytClone/ed29202bf1f1f364f754ec8569dc235ba17946cc/index.html)
 
 **See the page via the link above**
 
